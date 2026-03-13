@@ -19,15 +19,18 @@ a={}
 print(a)
 a.update({1:"tri",2:"veni"})
 a.update({3:"chinu"})
-"""
 print(a)
 print(a.pop(3))
 a.popitem()
-print(a)"""
+print(a)
+
 a.setdefault(1,"john")
 print(a)
 a.setdefault(1,"kumar")
 print(a)
+
+b=a.copy()
+print(b)
 
 
 
